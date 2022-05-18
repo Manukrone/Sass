@@ -1,0 +1,137 @@
+* {
+  max-width: 100%;
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box; }
+
+/* Grid */
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 25px;
+  margin: 30px; }
+
+.gridIframe {
+  box-shadow: 10px 13px 37px #275721; }
+
+.container {
+  height: 100%;
+    width: 0;
+   position: fixed;
+    z-index: 1;
+   top: 0;
+    left: 0;
+  background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+   transition: 0.5s; }
+
+.container a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s; }
+
+.container a:hover {
+  color: #f1f1f1; }
+
+.container .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px; }
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px; }
+
+@media screen and (max-height: 450px) {
+  .container {
+    padding-top: 15px; }
+  .container a {
+    font-size: 18px; } }
+
+/* HEADER */
+.header {
+  margin: 2px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 10px 13px 37px #275721; }
+
+/* FORMULARIO DE CONTACTO */
+.formulario {
+  width: 400px;
+  background-color: #24303c;
+  align-items: center;
+  display: flex;
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 4px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-shadow: 7px 13px 37px #000;
+  text-align: center; }
+
+.registrarse {
+  font-size: 22px;
+  margin-bottom: 15px; }
+
+.controles {
+  border: 1px solid #66599e;
+  padding: 5px;
+  font-size: 16px;
+  color: white; }
+
+.p {
+  height: 30px;
+  color: white;
+  text-align: center; }
+
+.a {
+  color: white; }
+
+.boton {
+  width: 100%;
+  border: none;
+  background: #66599e;
+  padding: 10px;
+  margin: 10px 0; }
+
+.logo {
+  height: 130; }
+
+.eleccion {
+  padding: 20px;
+  border-top: 10px;
+  font-size: large; }
+
+.historia {
+  background-color: #f1ba93;
+  padding: 4px;
+  border-radius: 10px;
+  font-size: 20px; }
+
+h1 {
+  color: #031d1d;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif; }
+
+#subtitulo {
+  padding: 20px;
+  text-align: center;
+  font-size: 35px; }
+
+body {
+  background-image: linear-gradient(white, #54884d); }
+
+h3 {
+  font-style: italic;
+  text-align: center; }
+
+.centrado {
+  text-align: center; }
